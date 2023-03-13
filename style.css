@@ -100,11 +100,11 @@
     font-weight: 400;
     font-size: 12px;
     box-shadow: 3px 3px 1px 3px black;
-    transition: box-shadow 250ms, font-size 100ms;
+    transition: box-shadow 250ms, width 250ms;
 }
 .button-text:hover{
     box-shadow: 0px 0px 0px 0px black;
-    font-size: 14px;
+    width: 220px;
 }
 
 .content-advantage{
@@ -117,6 +117,7 @@
 .content-advantage-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
@@ -130,6 +131,7 @@
     padding-top: 2em;
     font-family:'Krona One', sans-serif;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .content-advantage-paragraph{
@@ -140,6 +142,9 @@
     font-style: normal;
     font-family:'Krona One', sans-serif;
     text-align: center;
+}
+.width{
+    width: 100em;
 }
 
 .content-advantage-items{
@@ -156,4 +161,7 @@
     line-height: 35px;
     font-family:'Krona One', sans-serif;
     margin-top: 1em;
+}
+.button-margin{
+    margin: 5em;
 }
