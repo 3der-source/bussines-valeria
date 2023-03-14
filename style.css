@@ -182,19 +182,27 @@
     align-items: center;
     justify-content: center;
     margin: 3em 3em;
+    flex-direction: row;
 }
 
 .coments-box{
     background-color: #C7DEFD;
+    border-radius: 10px;
     padding: 20px 20px;
-    align-items: center;
+    border: 1px solid transparent
 }
 
 .coments-box-text{
-    display: flex;
     color:#575859;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin: bottom  ;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 3em;
+}
+.content-advantage-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
 }
