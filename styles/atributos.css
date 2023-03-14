@@ -1,5 +1,6 @@
 .container-attributes{
     background: rgb(172, 172, 172, .2);
+    padding-bottom: 50px;
 }
 
 .text-attributes{
@@ -17,7 +18,7 @@
 .content-items{
     display: flex;
     justify-content: space-between;
-    padding: 1% 30%;
+    padding: 1% 15%;
     gap: 5em;
 }
 .items{
@@ -44,4 +45,29 @@
 }
 .img-items{
     width: 4em;
+}
+
+.textaling{
+    text-align: center;
+}
+
+.font{
+    font-size: 20px !important;
+}
+
+.color{
+    color: #1c2a5f !important;
+    font-size: 37px !important;
+}
+
+.gray{
+    color: gray !important;
+}
+
+.padding-box{
+    padding: 20px 20px !important;
+}
+
+.center{
+    text-align: center;
 }

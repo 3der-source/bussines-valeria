@@ -88,8 +88,8 @@
     margin: 2% 0px;
 }
 .button-text{
-    background-color: transparent;
-    border: 2px solid #ffff;
+    background-color: #ff8100;
+    border: 2px solid #ffff;    
     width: 200px;
     text-align: center;
     text-decoration: none;
@@ -123,7 +123,7 @@
 
 .content-advantage-title{
     color: #ffff;
-    font-size: 38px;
+    font-size: 37px;
     font-weight: 600;
     text-transform: none;
     font-style: normal;
@@ -134,6 +134,7 @@
     margin-bottom: 1em;
 }
 
+
 .content-advantage-paragraph{
     color: #ffff;
     font-size: 13px;
@@ -141,7 +142,9 @@
     text-transform: none;
     font-style: normal;
     font-family:'Krona One', sans-serif;
-    text-align: center;
+    text-align: flex-start;
+    max-width: 89em;
+    line-height: 25px;
 }
 .width{
     width: 100em;
@@ -164,4 +167,34 @@
 }
 .button-margin{
     margin: 5em;
+}
+
+.advantage-box{
+    padding: 20px 20px;
+    border: 1px solid rgb(0 0 0 / 23%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 23%);
+}
+
+.container-box{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 3em;
+}
+
+.coments-box{
+    background-color: #C7DEFD;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.coments-box-text{
+    display: flex;
+    color:#575859;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin: bottom  ;
 }
